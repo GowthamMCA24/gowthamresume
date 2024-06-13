@@ -1,0 +1,55 @@
+*{
+    margin:0;
+}
+.resume span{
+  color:blue;
+}
+.resume {
+    background-color: black;
+    height:60px;
+}
+.resume h1{
+    color:white;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.resume a{
+    text-decoration: none;
+    color: white;
+}
+.menu-bar{
+   background-color: rgb(12, 109, 219);
+   height: px;
+}
+.menu-bar ul{
+    list-style: none;
+
+}
+.menu-bar ul li{
+    display: inline-block;
+    text-indent: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    font-size:23px;
+}
+.menu-bar ul li a{
+    text-decoration:none; 
+    color: white;
+}
+.menu-bar ul li a:hover{
+    background-color: blueviolet;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px ;
+    border-radius: 10px;
+    border-color: black;
+}
+@media screen and (max-width:1193px){
+    .menu-bar ul li{
+        display: block;
+        
+    }
+}
+

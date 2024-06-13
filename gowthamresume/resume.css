@@ -1,0 +1,190 @@
+*{
+    margin:0px;
+}.resume span{
+    color:blue;
+  }
+  .resume {
+      background-color: black;
+      height:60px;
+  }
+  .resume h1{
+      color:white;
+      padding-top: 10px;
+      margin-left: 10px;
+  }
+  .resume a{
+      text-decoration: none;
+      color: white;
+  }
+  .menu-bar{
+     background-color: rgb(12, 109, 219);
+     height: px;
+  }
+  .menu-bar ul{
+      list-style: none;
+  
+  }
+  .menu-bar ul li{
+      display: inline-block;
+    text-indent: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    font-size:23px;
+        
+  }
+  .menu-bar ul li a{
+      text-decoration:none; 
+      color: white;
+  }
+  .menu-bar ul li a:hover{
+      background-color: blueviolet;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right:20px ;
+      border-radius: 10px;
+      border-color: black;
+  }
+  
+  
+body{
+    background-color: ;
+}
+.color{
+    background-color:lightblue;
+    height: 230px;
+}
+.collapse h1{
+    text-align: ;
+    padding-top: 60px;
+    margin-left: 500px;
+    background-color: fill;
+}
+.collapse h5{
+    text-align: ;
+    padding-top: 0px;
+    margin-left: 600px;
+}
+img{
+    position: absolute;
+    left:0px;
+    top:135px;
+    margin-left:200px;
+    border-radius: 50%;
+}
+.color hr{
+    margin-top: 115px;
+}
+.color1{
+    background-color:lightcyan;
+    height: 600px;
+}
+.about{
+    position: absolute;
+    top:420px;
+   margin-bottom: 5px;
+   margin-left:200px;
+}
+.about p{
+    margin-top: 10px;
+}
+.address{
+    position:absolute;
+    top:600px;
+   margin-bottom: 5px;
+   margin-left:200px;
+}
+.address p{
+    margin-top: 10px;
+}
+.education{
+    margin-left:800px;
+    top:420px;
+    position:absolute;
+}
+.education p{
+    margin-top: 10px;
+}
+.language{
+    margin-left:800px;
+    top:640px;
+    position:absolute;
+}
+.language li{
+   margin-top:10px ;
+}
+.skills{
+    margin-left:800px;
+    top:750;
+    position:absolute;
+}
+.skills li{
+    margin-top: 10px;
+}
+.linkedin{
+    margin-top: 10px;
+    margin-left:200px;
+    position: absolute;
+    top:750px;
+    position: absolute;
+}
+.linkedin h3{
+    margin-bottom: 10px;
+}
+@media screen and (max-width:1193px)
+{
+    .menu-bar ul li{
+        display: block;
+    }
+    .menu-bar{
+        position: ;
+    }
+    .color{
+      margin-top: 0px;
+    }
+    .collapse h1{
+       padding-top: 240px;
+       margin-left: 0px;
+    }
+    .collapse h5{
+        padding-top: 20px;
+        margin-left: 0px;
+    
+    }
+    img{
+        margin-top: 260px;
+        margin-left: 0px;
+    }
+    .about{
+        margin-top: 370px;
+        margin-left: 20px;
+    }
+    .education{
+        margin-top: 500px;
+        margin-left: 20px;
+    }
+    .skills{
+        margin-left: 20px;
+        margin-top: 430px;
+    }
+    .language{
+        margin-left: 20px;
+        margin-top:700px ;
+    }
+    .address{
+        margin-top: 880px;
+        margin-left: 10px;
+    }
+    .linkedin{
+        margin-top: 930px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+    .color1{
+        padding-bottom: 560px;
+    }
+
+
+
+}
